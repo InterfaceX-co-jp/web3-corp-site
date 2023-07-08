@@ -48,6 +48,7 @@ export const staticPath = {
   storybook_png: '/storybook.png',
   terraform_png: '/terraform.png',
   ton_png: '/ton.png',
+  tsubasa_tanaka_jpg: '/tsubasa-tanaka.jpg',
   typescript_png: '/typescript.png',
   vercel_svg: '/vercel.svg'
 } as const

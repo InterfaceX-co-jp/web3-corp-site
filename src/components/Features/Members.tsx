@@ -24,6 +24,8 @@ function MemberCard({ name, imageSrc, tags, description }: Member) {
     <Card maxW="sm">
       <CardBody>
         <Image
+          h={"350px"}
+          w={"100%"}
           objectFit={"cover"}
           src={imageSrc}
           alt={`${name} member introduction`}
@@ -48,6 +50,17 @@ function MemberCard({ name, imageSrc, tags, description }: Member) {
 }
 
 const MEMBERS: Member[] = [
+  {
+    name: "Tsubasa Tanaka",
+    imageSrc: staticPath.tsubasa_tanaka_jpg,
+    description: "He studied statistics and machine learning at the University of Texas and worked as a data analyst at Square for about two years while in school. After returning to Japan, he started a human resource service business specializing in foreign engineers and is also the director of another corporation. he is also familiar with DAO and NFT design in the web 3.0 field and has experience in several projects, including project leader of a blockchain game.",
+    tags: [
+      "Blockchain Consulting",
+      "Blockchain Game",
+      "Project Management",
+      "Sales"
+    ]
+  },
   {
     name: "Shogo Kusuhara",
     imageSrc: staticPath.sk_png,
