@@ -26,8 +26,8 @@ export default function MainVisual() {
             fontWeight="extrabold"
           >
             Web 3.0 For All. <br />
-            Decentralization <br />
-            Begins From Here.
+            Decentralize <br />
+            The Universe.
           </Text>
         </Box>
         <Canvas camera={{ position: [0, 0, 1] }}>
