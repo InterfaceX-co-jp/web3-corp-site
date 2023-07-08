@@ -15,10 +15,10 @@ export default function DefaultLayout({ children }: Props) {
   return (
     <>
       <Head>
-        <ChakraFactory.title>InterfaceX</ChakraFactory.title>
+        <ChakraFactory.title>InterfaceX 3.0</ChakraFactory.title>
         <meta
           name="description"
-          content="「いい感じのWEB」をお手頃価格本格的なクオリティで新提案。開発案件なら業界トップレベルのエンジニアが多数在籍する私たちにお任せください。"
+          content="InterfaceX 3.0. Our strength is that we have a system that can provide all the technical support as Web5, not only with the latest Web3 technology, but also with Web2.0 technology, which is a solid foundation. We can also provide support in designing the token economy, DAOs, and other systems at the philosophical level. "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={staticPath.favicon_ico} />
