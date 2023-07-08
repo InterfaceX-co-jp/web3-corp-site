@@ -82,8 +82,8 @@ export default function Contact() {
           Member Introduction  
         </Heading>
       </Stack>
-      <Container maxW={"5xl"} py={12}>
-        <Flex gap={4}>
+      <Container maxW={"5xl"} py={{sm: 4, md: 12}}>
+        <Flex gap={4} flexDirection={{ sm: "column", md: "row"}}>
           {MEMBERS.map(({ name, imageSrc, tags, description }, idx) => (
             <MemberCard
               key={idx}
