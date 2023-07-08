@@ -13,10 +13,10 @@ export default function MainVisual() {
       >
         <Box
           position={"absolute"}
-          top={{ md: "6vh" }}
+          top={{ md: "1vh" }}
           w={"100vw"}
-          left={{ sm: "4vw", md: "20%", xl: "30%" }}
-          pt={"30vh"}
+          left={{ sm: "4vw", md: "10%", xl: "30%" }}
+          pt={"20vh"}
           pl={"4%"}
         >
           <Text
@@ -25,8 +25,9 @@ export default function MainVisual() {
             fontSize={{ base: "5xl", md: "8xl" }}
             fontWeight="extrabold"
           >
-            Build minimum, <br />
-            Scale to million.
+            Web 3.0 For All. <br />
+            Decentralization <br />
+            Begins From Here.
           </Text>
         </Box>
         <Canvas camera={{ position: [0, 0, 1] }}>
