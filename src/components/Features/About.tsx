@@ -13,8 +13,8 @@ import {
 import {
   IoAnalyticsSharp,
   IoLogoBitcoin,
-  IoSearchSharp,
 } from "react-icons/io5";
+import { CgCommunity } from "react-icons/cg"
 import { ReactElement } from "react";
 
 interface FeatureProps {
@@ -60,28 +60,27 @@ export default function About() {
               Our Edge
             </Text>
             <Heading>
-              アジャイル開発{" "}
+              Cutting-edge Web3 Tech{" "}
               <Text as={"span"} color={"teal.400"}>
                 X{" "}
               </Text>
               <br />
-              モダンな技術選定{" "}
+              Solid Web2.0 Base{" "}
               <Text as={"span"} color={"teal.400"}>
                 X{" "}
               </Text>
               <br />
-              DevOpsと自動化{" "}
+              World-Class Product Development{" "}
               <Text as={"span"} color={"teal.400"}>
                 X{" "}
               </Text>
               <br />
               <Text as={"span"} color={"teal.400"}>
-                プロダクト開発の匠
+                InterfaceX 3.0
               </Text>
             </Heading>
             <Text color={"gray.500"} fontSize={"lg"}>
-              私たちの強みは、ひとことでいえば「巨人の肩に乗る」ことの上手さにあります。
-              プロダクト開発においてパブリッククラウドを前提にし、OSSエコシステムを使いこなすことで、他社に負けない超効率のプロダクト開発を実現します。
+              Our strength is that we have a system that can provide all the technical support as Web5, not only with the latest Web3 technology, but also with Web2.0 technology, which is a solid foundation. We can also provide support in designing the token economy, DAOs, and other systems at the philosophical level.
             </Text>
             <Stack
               spacing={4}
@@ -101,21 +100,21 @@ export default function About() {
                   />
                 }
                 iconBg={useColorModeValue("yellow.100", "yellow.900")}
-                text={"クライアントワーク事業"}
+                text={"Web3 Business Consulting"}
               />
               <Feature
                 icon={
                   <Icon as={IoLogoBitcoin} color={"green.500"} w={5} h={5} />
                 }
                 iconBg={useColorModeValue("green.100", "green.900")}
-                text={"WEBサービス事業"}
+                text={"Web3(+Web2.0) Product Development"}
               />
               <Feature
                 icon={
-                  <Icon as={IoSearchSharp} color={"purple.500"} w={5} h={5} />
+                  <Icon as={CgCommunity} color={"purple.500"} w={5} h={5} />
                 }
                 iconBg={useColorModeValue("purple.100", "purple.900")}
-                text={"WEBマーケティング支援事業"}
+                text={"Community Building + Community Design"}
               />
             </Stack>
           </Stack>

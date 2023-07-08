@@ -49,15 +49,14 @@ function MemberCard({ name, imageSrc, tags, description }: Member) {
 
 const MEMBERS: Member[] = [
   {
-    name: "楠原 彰悟",
+    name: "Shogo Kusuhara",
     imageSrc: staticPath.sk_png,
-    description:
-      "立命館大学卒業後、新卒でBig4系監査法人の経営企画に入社。3ヶ月で退職し、その後、個人事業で輸入やオンライン販売で生計を立てる。さらに大きくスケールするビジネスをするため独学でプログラミングを学ぶ。その後フリーランス独立。独立後は複数のスタートアップ～上場企業の開発を全てのフェーズで支援。叩き上げの技術者としてフロントエンド~インフラまで幅広く開発する傍ら、WEBクリエイターが最高の仕事ができる組織を創るため起業。",
+    description: "After graduating from Ritsumeikan University, he joined a Big 4 audit firm as a new graduate in corporate planning, leaving after 3 months to make a living through importing and online sales as a sole trader. He taught himself programming in order to scale up his business even further. He then became an independent freelancer. Since becoming independent, he has helped several startups to listed companies in all phases of development. While developing a wide range of projects from front-end to infrastructure as a seasoned engineer, he started his own company to create an organization where web creators can do their best work.",
     tags: [
-      "代表社員",
-      "エンジニア(FullStack)",
-      "WEBデザイン",
-      "バックオフィス",
+      "Senior Partner",
+      "Fullstack Engineer(Web2.0)",
+      "Blockchain Engineer",
+      "Backoffice",
     ],
   },
 ];
@@ -67,7 +66,7 @@ export default function Contact() {
     <Box p={4}>
       <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
         <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
-          メンバー紹介
+          Member Introduction  
         </Heading>
       </Stack>
       <Container maxW={"5xl"} py={12}>
