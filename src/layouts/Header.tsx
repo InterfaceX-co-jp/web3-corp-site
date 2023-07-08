@@ -21,7 +21,7 @@ export default function Nav() {
           position={"relative"}
           px={4}
         >
-          <Box>InterfaceX</Box>
+          <Box>InterfaceX 3.0</Box>
 
           <Flex alignItems={"center"} px={4}>
             <Stack direction={"row"} spacing={7}>

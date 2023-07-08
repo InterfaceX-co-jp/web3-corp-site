@@ -13,7 +13,7 @@ import { ReactNode } from "react";
 
 const CompanyInfoTag = ({ children }: { children: ReactNode }) => {
   return (
-    <Tag colorScheme="teal" size="sm" w={"90px"} justifyContent={"center"}>
+    <Tag colorScheme="teal" size="sm" w={"90px"} justifyContent={"center"} textAlign={"center"}>
       {children}
     </Tag>
   );
@@ -24,46 +24,27 @@ export default function Contact() {
     <Box p={4}>
       <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
         <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
-          会社概要
+         Company Profile 
         </Heading>
       </Stack>
       <Table maxW={{ md: "600px" }}>
         <Tr>
           <Td>
-            <CompanyInfoTag>社名</CompanyInfoTag>
+            <CompanyInfoTag>Company Name</CompanyInfoTag>
           </Td>
-          <Td>InterfaceX合同会社</Td>
+          <Td>InterfaceX LLC</Td>
         </Tr>
         <Tr>
           <Td>
-            <CompanyInfoTag>所在地</CompanyInfoTag>
+            <CompanyInfoTag>Location</CompanyInfoTag>
           </Td>
-          <Td>大阪府大阪市北区豊崎４−１−１７ オリーブコート２０１</Td>
+          <Td>201 Olive Court, 4-1-17 Toyosaki, Kita-ku, Osaka-shi, Osaka</Td>
         </Tr>
         <Tr>
           <Td>
-            <CompanyInfoTag>代表社員</CompanyInfoTag>
+            <CompanyInfoTag>Representative Partner</CompanyInfoTag>
           </Td>
-          <Td>楠原 彰悟</Td>
-        </Tr>
-        <Tr>
-          <Td>
-            <CompanyInfoTag>事業内容</CompanyInfoTag>
-          </Td>
-          <Td>
-            <Box w={"fit-content"}>
-              <Text>
-                (1)コンピュータのソフトウェア及びハードウェアの企画、研究、開発、設計、製造、販
-                売、保守、リース、賃貸、輸出入並びにそれらに関するコンサルティング業務
-              </Text>
-              <Text>
-                (2)ＥＣ（電子商取引）サイト、その他各種ウェブサイトの企画、制作、販売、配信、運
-                営及び管理
-              </Text>
-              <Text>(3)人材育成、能力開発のための教育事業</Text>
-              <Text>(4)前各号に附帯関連する一切の事業</Text>
-            </Box>
-          </Td>
+          <Td>Shogo Kusuhara</Td>
         </Tr>
       </Table>
     </Box>
