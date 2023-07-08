@@ -22,12 +22,12 @@ const CompanyInfoTag = ({ children }: { children: ReactNode }) => {
 export default function Contact() {
   return (
     <Box p={4}>
-      <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
+      <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"} mb={12}>
         <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
          Company Profile 
         </Heading>
       </Stack>
-      <Table maxW={{ md: "600px" }}>
+      <Table maxW={{ md: "600px" }} mb={12}>
         <Tr>
           <Td>
             <CompanyInfoTag>Company Name</CompanyInfoTag>
