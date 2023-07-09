@@ -314,7 +314,7 @@ export default function TechStacks() {
             mb={4}
             textAlign={"center"}
           >
-            Monitoring
+            DevOps
           </Heading>
            <Flex
             gap={8}
@@ -325,15 +325,63 @@ export default function TechStacks() {
               <Image
                 w={"auto"}
                 h={"60px"}
-                src={staticPath.prometheus_logo_png}
-                alt={"mongodb atlas logo"}
+                src={staticPath.docker_png}
+                alt={"docker logo"}
               />
               <Image
                 w={"auto"}
                 h={"60px"}
-                src={staticPath.grafana_logo_png}
+                src={staticPath.kubernates_png}
+                alt={"kubernates logo"}
+              />            
+             <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.githubactions_png}
+                alt={"github actions logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.jenkins_png}
+                alt={"jenkins logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.gitlab_cicd_png}
+                alt={"gitlab cicd logo"}
+              />
+            </Flex>
+        </Card>
+        <Card mb={4} p={4}>
+          <Heading
+            as={"h4"}
+            size="md"
+            textColor={"gray"}
+            mb={4}
+            textAlign={"center"}
+          >
+            Monitoring
+          </Heading>
+           <Flex
+            gap={8}
+            alignItems={"center"}
+            justifyContent={"center"}
+            flexWrap={"wrap"}
+            >
+              <Image
+                w={"auto"}
+                h={"90px"}
+                src={staticPath.prometheus_logo_png}
                 alt={"mongodb atlas logo"}
               />
+              <Image
+                w={"200px"}
+                h={"auto"}
+                src={staticPath.grafana_ecosystem_png}
+                alt={"grafana ecosystems logo"}
+              />             
             </Flex>
         </Card>
       </Container>
