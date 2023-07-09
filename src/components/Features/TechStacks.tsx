@@ -372,16 +372,16 @@ export default function TechStacks() {
             >
               <Image
                 w={"auto"}
-                h={"60px"}
+                h={"90px"}
                 src={staticPath.prometheus_logo_png}
                 alt={"mongodb atlas logo"}
               />
               <Image
-                w={"auto"}
-                h={"60px"}
-                src={staticPath.grafana_logo_png}
-                alt={"mongodb atlas logo"}
-              />
+                w={"200px"}
+                h={"auto"}
+                src={staticPath.grafana_ecosystem_png}
+                alt={"grafana ecosystems logo"}
+              />             
             </Flex>
         </Card>
       </Container>
