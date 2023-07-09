@@ -218,6 +218,48 @@ export default function TechStacks() {
             mb={4}
             textAlign={"center"}
           >
+            Database / NoSQLs
+          </Heading>
+           <Flex
+            gap={8}
+            alignItems={"center"}
+            justifyContent={"center"}
+            flexWrap={"wrap"}
+            >
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.mongodb_png}
+                alt={"mongodb logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.rocksdb_png}
+                alt={"rocksdb logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.mysql_png}
+                alt={"mysql logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.redis_png}
+                alt={"mysql logo"}
+              />
+            </Flex>
+        </Card>
+        <Card mb={4} p={4}>
+          <Heading
+            as={"h4"}
+            size="md"
+            textColor={"gray"}
+            mb={4}
+            textAlign={"center"}
+          >
             Infrastructures / Node as a Service
           </Heading>
           <Flex

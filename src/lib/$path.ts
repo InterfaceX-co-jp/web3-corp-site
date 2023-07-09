@@ -47,6 +47,8 @@ export const staticPath = {
   polygon_png: '/polygon.png',
   prometheus_logo_png: '/prometheus-logo.png',
   python_png: '/python.png',
+  redis_png: '/redis.png',
+  rocksdb_png: '/rocksdb.png',
   rust_png: '/rust.png',
   site_webmanifest: '/site.webmanifest',
   sk_png: '/sk.png',
