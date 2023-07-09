@@ -192,11 +192,65 @@ export default function TechStacks() {
             />
             <Image
               w={"auto"}
+              h={"100px"}
+              src={staticPath.c_sharp_png}
+              alt={"rust logo"}
+            />
+            <Image
+              w={"auto"}
+              h={"100px"}
+              src={staticPath.dotnet_png}
+              alt={"rust logo"}
+            />
+            <Image
+              w={"auto"}
               h={"60px"}
               src={staticPath.python_png}
               alt={"python logo"}
             />
           </Flex>
+        </Card>
+        <Card mb={4} p={4}>
+          <Heading
+            as={"h4"}
+            size="md"
+            textColor={"gray"}
+            mb={4}
+            textAlign={"center"}
+          >
+            Database / NoSQLs
+          </Heading>
+           <Flex
+            gap={8}
+            alignItems={"center"}
+            justifyContent={"center"}
+            flexWrap={"wrap"}
+            >
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.mongodb_png}
+                alt={"mongodb logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.rocksdb_png}
+                alt={"rocksdb logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.mysql_png}
+                alt={"mysql logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.redis_png}
+                alt={"mysql logo"}
+              />
+            </Flex>
         </Card>
         <Card mb={4} p={4}>
           <Heading
@@ -235,6 +289,12 @@ export default function TechStacks() {
             <Image
               w={"auto"}
               h={"60px"}
+              src={staticPath.azure_png}
+              alt="AWS logo"
+            />
+            <Image
+              w={"auto"}
+              h={"60px"}
               src={staticPath.firebase_png}
               alt={"firebase logo"}
             />
@@ -245,6 +305,36 @@ export default function TechStacks() {
               alt={"mongodb atlas logo"}
             />
           </Flex>
+        </Card>
+        <Card mb={4} p={4}>
+          <Heading
+            as={"h4"}
+            size="md"
+            textColor={"gray"}
+            mb={4}
+            textAlign={"center"}
+          >
+            Monitoring
+          </Heading>
+           <Flex
+            gap={8}
+            alignItems={"center"}
+            justifyContent={"center"}
+            flexWrap={"wrap"}
+            >
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.prometheus_logo_png}
+                alt={"mongodb atlas logo"}
+              />
+              <Image
+                w={"auto"}
+                h={"60px"}
+                src={staticPath.grafana_logo_png}
+                alt={"mongodb atlas logo"}
+              />
+            </Flex>
         </Card>
       </Container>
     </Box>
