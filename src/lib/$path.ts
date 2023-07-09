@@ -38,6 +38,7 @@ export const staticPath = {
   mysql_png: '/mysql.png',
   next_png: '/next.png',
   next_svg: '/next.svg',
+  nitin_gray_jpg: '/nitin-gray.jpg',
   nuxt_png: '/nuxt.png',
   polygon_png: '/polygon.png',
   python_png: '/python.png',
