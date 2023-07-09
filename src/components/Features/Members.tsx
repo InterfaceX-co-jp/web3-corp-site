@@ -21,7 +21,7 @@ interface Member {
 
 function MemberCard({ name, imageSrc, tags, description }: Member) {
   return (
-    <Card maxW="sm" minW={400}>
+    <Card maxW="sm" minW={{ md: 400 }}>
       <CardBody>
         <Image
           h={"350px"}
@@ -88,25 +88,23 @@ const MEMBERS: Member[] = [
 
 export default function Contact() {
   return (
-    <Box p={4}>
-      <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
+    <Box p={4} w={"100vw"}>
+      <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"} mb={12}>
         <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
           Member Introduction  
         </Heading>
       </Stack>
-      <Container maxW={"5xl"} py={{sm: 4, md: 12}}>
-        <Flex gap={4} flexDirection={{ sm: "column", md: "row"}}>
-          {MEMBERS.map(({ name, imageSrc, tags, description }, idx) => (
-            <MemberCard
-              key={idx}
-              name={name}
-              imageSrc={imageSrc}
-              tags={tags}
-              description={description}
-            />
-          ))}
-        </Flex>
-      </Container>
+      <Flex gap={4}  flexWrap={"wrap"} justifyContent={"center"}>
+        {MEMBERS.map(({ name, imageSrc, tags, description }, idx) => (
+          <MemberCard
+            key={idx}
+            name={name}
+            imageSrc={imageSrc}
+            tags={tags}
+            description={description}
+          />
+        ))}
+      </Flex>
     </Box>
   );
 }
